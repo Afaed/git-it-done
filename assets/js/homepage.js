@@ -36,7 +36,7 @@ var getUserRepos = function(user) {
           displayRepos(data, user);
         });
       } else {
-        alert('Error: ' + response.statusText);
+        alert('Error: Invalid Username ' + response.statusText);
       }
     })
     .catch(function(error) {
